@@ -5,7 +5,7 @@
 
 ## Usage
 
-relative(html, path, root);
+    html = relative(html, path, root);
 
 ## TODO
 
