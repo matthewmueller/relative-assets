@@ -16,7 +16,7 @@ exports = module.exports = function($, source, root) {
     $this.attr(attr, path);
   });
   
-  return $;
+  return $.html();
 };
 
 // Tags to search on
