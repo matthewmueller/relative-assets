@@ -1,12 +1,12 @@
 {
-    "name": "Relative Assets"
-  , "version": "0.0.1"
-  , "description": "Converts the assets in an html document to be relative to the root"
-  , "keywords": []
-  , "author": "Matt Mueller <mattmuelle@gmail.com>"
-  , "dependencies": {
+  "name": "relative-assets",
+  "version": "0.0.1",
+  "description": "Converts the assets in an html document to be relative to the root",
+  "keywords": [],
+  "author": "Matt Mueller <mattmuelle@gmail.com>",
+  "dependencies": {
     "cheerio" : "*"
-  }
-  , "main": "index"
-  , "engines": { "node": "0.6.x" }
+  },
+  "main": "index",
+  "engines": { "node": "0.6.x" }
 }

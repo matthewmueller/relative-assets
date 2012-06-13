@@ -4,9 +4,6 @@ var path = require('path'),
     join = path.join,
     cheerio = require('cheerio');
 
-// Tags
-var assets = exports.assets = ['script[src]', 'link', 'img'];
-
 exports = module.exports = function($, source, root) {
   $ = ($.cheerio) ? $ : cheerio.load($);
 
@@ -22,6 +19,10 @@ exports = module.exports = function($, source, root) {
   return $;
 };
 
+// Tags to search on
+var assets = exports.assets = ['script[src]', 'link', 'img'];
+
+// Convert the paths to be relative to root
 var convert = exports.convert = function(path, source, root) {
   var directory = dirname(source);
   if(!path || path[0] === '/' || ~path.indexOf('http'))
