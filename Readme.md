@@ -3,6 +3,15 @@
 
   Converts the assets in an html document to be relative to the root
 
+## Usage
+
+relative(html, path, root);
+
+## TODO
+
+* documentation
+* tests
+
 ## License 
 
 (The MIT License)
